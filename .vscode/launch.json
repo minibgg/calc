@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome - Calculator",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/Untitled-1.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Node.js",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/shiteater.js"
+    }
+  ]
+}
