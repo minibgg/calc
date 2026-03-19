@@ -42,3 +42,31 @@ buttons.forEach(function(button) {
         }
     });
 });
+document.addEventListener('keydown', handleKeyboardInput);
+function handleKeyboardInput(event) {
+    const key = event.key;
+
+    if ((key >= '0' && key <= '9') || ['+', '-', '*', '/', '.', '(', ')'].includes(key)) {
+        if (!['+', '-', '*', '/'].includes(expression.slice(-1)) || !['+', '-', '*', '/'].includes(key)) {
+            expression += key;
+            updatedisplay();
+        }
+    } else if (key === 'Enter' || key === '=') {
+        let oldExpression = expression;
+       try {
+            history.push(oldExpression + ' = ' + eval(expression));
+            updateHistory();
+            expression = String(eval(expression));
+            updatedisplay();
+        } catch (error) {
+            expression = "Error";
+            updatedisplay();
+        }
+    } else if (key === 'Backspace') {
+        expression = expression.slice(0, -1);
+        updatedisplay();
+    } else if (key === 'Escape') {
+        expression = '';
+        updatedisplay();
+    }
+}
