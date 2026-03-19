@@ -68,5 +68,10 @@ function handleKeyboardInput(event) {
     } else if (key === 'Escape') {
         expression = '';
         updatedisplay();
+    } else if (key.toLowerCase() === 'c') {
+        expression = '';
+        updatedisplay();
+    } else {
+        alert('Invalid key: ' + key);
     }
 }
