@@ -45,3 +45,39 @@
 .row {
   height: 70px;
 }
+.redbutton {
+  background-color: rgb(207, 43, 43);
+  border: 2px solid #000;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 2px 1px;
+  width: 55px;
+  height: 55px;
+}
+.bluebutton {
+  background-color: rgb(23, 154, 214);
+  border: 2px solid #000;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 2px 1px;
+  width: 55px;
+  height: 55px;
+}
+.greenbutton {
+  background-color: rgb(43, 207, 43);
+  border: 2px solid #000;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 2px 1px;
+  width: 55px;
+  height: 55px;
+}
