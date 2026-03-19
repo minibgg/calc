@@ -40,5 +40,9 @@ buttons.forEach(function(button) {
             expression = '';
             updatedisplay();
         }
+        if (value === 'value/0') {
+            expression = "cant divide by zero";
+            updatedisplay();
+        }
     });
 });
