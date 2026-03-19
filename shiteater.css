@@ -45,7 +45,7 @@
 .row {
   height: 70px;
 }
-.redbutton {
+#redbutton {
   background-color: rgb(207, 43, 43);
   border: 2px solid #000;
   color: white;
@@ -57,7 +57,7 @@
   width: 55px;
   height: 55px;
 }
-.bluebutton {
+#bluebutton {
   background-color: rgb(23, 154, 214);
   border: 2px solid #000;
   color: white;
@@ -69,7 +69,7 @@
   width: 55px;
   height: 55px;
 }
-.greenbutton {
+#greenbutton {
   background-color: rgb(43, 207, 43);
   border: 2px solid #000;
   color: white;
