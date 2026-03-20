@@ -15,6 +15,19 @@ document.querySelectorAll('.button');
 
 let buttons = document.querySelectorAll('.button');
 let hbuttons = document.getElementById('hbutton');
+function updateHistory() {
+    let historyDiv = document.querySelector('.history');
+    historyDiv.innerHTML = history.map(item => {
+        let expr = item.split(' = ')[0];
+        return `<div class="history-item" data-expression="${expr}">${item}</div>`;
+    }).join('');
+}
+document.querySelector('.history').addEventListener('click', function(event) {
+    if (event.target.classList.contains('history-item')) {
+        expression = event.target.dataset.expression;
+        updatedisplay();
+    }
+});
 
 buttons.forEach(function(button) {
     button.addEventListener('click', function(event) {
@@ -76,9 +89,3 @@ function handleKeyboardInput(event) {
         alert('Invalid key: ' + key);
     }
 }
-button.addEventListener('click', function(event) {
-    if (event.target.classList.contains('button')) {
-        alert('Button clicked: ' + event.target.dataset.value);
-        updatedisplay();
-    }
-});
