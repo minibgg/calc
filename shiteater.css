@@ -81,3 +81,15 @@
   width: 55px;
   height: 55px;
 }
+#hbutton {
+  background-color: rgb(207, 43, 207);
+  border: 2px solid #000;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 2px 1px;
+  width: 55px;
+  height: 55px;
+}
