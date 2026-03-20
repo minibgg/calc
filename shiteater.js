@@ -86,6 +86,6 @@ function handleKeyboardInput(event) {
         expression = '';
         updatedisplay();
     } else {
-        alert('Invalid key: ' + key);
+        console.log('Invalid key: ' + key);
     }
 }
