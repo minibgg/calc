@@ -76,3 +76,9 @@ function handleKeyboardInput(event) {
         alert('Invalid key: ' + key);
     }
 }
+button.addEventListener('click', function(event) {
+    if (event.target.classList.contains('button')) {
+        alert('Button clicked: ' + event.target.dataset.value);
+        updatedisplay();
+    }
+});

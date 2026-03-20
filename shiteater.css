@@ -43,7 +43,7 @@
     cursor: pointer;
 }
 .hbutton {  
-  background-color: rgb(43, 207, 43);
+  background-color: rgb(207, 43, 158);
   border: 2px solid #000;
   color: white;
   padding: 15px 20px;
@@ -82,7 +82,7 @@
   height: 55px;
 }
 #greenbutton {
-  background-color: rgb(207, 43, 207);
+  background-color: rgb(31, 175, 43);
   border: 2px solid #000;
   color: white;
   padding: 15px 20px;
