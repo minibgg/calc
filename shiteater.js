@@ -14,6 +14,7 @@ document.querySelectorAll('.button');
 
 
 let buttons = document.querySelectorAll('.button');
+let hbuttons = document.getElementById('hbutton');
 
 buttons.forEach(function(button) {
     button.addEventListener('click', function(event) {

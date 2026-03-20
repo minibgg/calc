@@ -40,6 +40,18 @@
     left: 250px;
     top:8px;
     position: absolute;
+    cursor: pointer;
+}
+.hbutton {  
+  background-color: rgb(43, 207, 43);
+  border: 2px solid #000;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 2px 1px;
+  width: 100px;
+  height: 100px;
 }
 
 .row {
@@ -70,18 +82,6 @@
   height: 55px;
 }
 #greenbutton {
-  background-color: rgb(43, 207, 43);
-  border: 2px solid #000;
-  color: white;
-  padding: 15px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 8px;
-  margin: 2px 1px;
-  width: 55px;
-  height: 55px;
-}
-#hbutton {
   background-color: rgb(207, 43, 207);
   border: 2px solid #000;
   color: white;
@@ -93,3 +93,4 @@
   width: 55px;
   height: 55px;
 }
+
